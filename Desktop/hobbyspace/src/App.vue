@@ -19,7 +19,7 @@
     <button @click="displayHobbyInfo(hobbies[2])">03</button> -->
     <div v-if="displayedHobby" class="info">
       <img v-bind:src="displayedHobby.logo" />
-      <div>
+      <div class="text">
       <h1>{{ displayedHobby.title }}</h1>
       <h2>{{ displayedHobby.date }}</h2>
       <h2>{{ displayedHobby.place }}</h2>
@@ -85,7 +85,12 @@ h2,h3 {
 .info a {
   font-size: 1.2rem;
   font-weight: 700;
+   z-index: 99;
 }
+
+/* .info .text {
+  z-index: 99;
+} */
 body {
   display: flex;
   flex-direction: column;
@@ -104,6 +109,7 @@ body {
   display: flex;
   justify-content: center;
   flex-direction: column;
+ 
 }
 
 .info > img {
@@ -118,6 +124,7 @@ body {
 
 .images {
   display: flex;
+  
 
 }
 
@@ -127,6 +134,7 @@ body {
 
 .images li img {
   position: absolute;
+  
 }
 
 .images li:nth-child(1) img {

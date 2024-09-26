@@ -16,7 +16,7 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>Neighborhood Discovery</title>
+    <title>map</title>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width,initial-scale=1">
     <script src="https://polyfill.io/v3/polyfill.min.js?features=default"></script>
@@ -588,7 +588,7 @@
       {"placeId": "ChIJD2gajdQEdkgRKMsbRWdq3mo", "category": "Post"},
       {"placeId": "ChIJ71biKgIDdkgRpE_Szpm-YG8", "category": "Post"},
       {"placeId": "ChIJSYJlQkUFdkgR4UQirZuOz_s", "category": "Post"},
-      //{"placeId": "ChIJkeddM88adkgR80g3pdkn0vw", "category": "Attraction"},
+      {"placeId": "ChIJkeddM88adkgR80g3pdkn0vw", "category": "Attraction"},
       {"placeId": "ChIJsepXS4sFdkgR-XiqFqEKiCM", "category": "Attraction"}
       
       ],
@@ -597,6 +597,8 @@
       "mapOptions": {"center":{"lat":51.5194133,"lng":-0.1269566},"fullscreenControl":true,"mapTypeControl":true,"streetViewControl":false,"zoom":16,"zoomControl":true,"maxZoom":20,"mapId":""},
       "mapsApiKey": "AIzaSyA5bwJPnK5l9adMJRyLHsGr_o952IAWwmk"
     };
+
+    // const가 아닌 var로 4개 타입으로 분리해서 불러오기
     function filterConfiguration() {
         const checkboxes = document.querySelectorAll('#filter input[type="checkbox"]');
         
