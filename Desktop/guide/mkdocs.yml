@@ -7,6 +7,8 @@ markdown_extensions:
   - toc:
       baselevel: 4
 nav:
+  - index: 'index.md'
+  - about: 'about.md' 
   - overview: 
     - '개요': 'overview/개요.md'
     - '사용량 관리': 'overview/사용량 관리.md'
@@ -15,6 +17,7 @@ nav:
     - '나의 신청 현황': 'service request/나의 신청 현황.md'
     - '서비스 신청': 'service request/서비스 신청.md'
   
+
     
   
 theme: readthedocs
