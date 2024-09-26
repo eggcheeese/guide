@@ -1,0 +1,20 @@
+# 매뉴얼 이름 작성란
+site_name: OKESTRO CMP USER GUIDE 
+
+# 헤더의 기본 수준 정의. 미지정 시 
+markdown_extensions:
+  - admonition 
+  - toc:
+      baselevel: 4
+nav:
+  - overview: 
+    - '개요': 'overview/개요.md'
+    - '사용량 관리': 'overview/사용량 관리.md'
+    - '이용 현황': 'overview/이용 현황.md'
+  - service request:
+    - '나의 신청 현황': 'service request/나의 신청 현황.md'
+    - '서비스 신청': 'service request/서비스 신청.md'
+  
+    
+  
+theme: readthedocs
