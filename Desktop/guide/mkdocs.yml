@@ -1,11 +1,13 @@
 # 매뉴얼 이름 작성란
-site_name: OKESTRO CMP USER GUIDE 
+site_name: CMP USER GUIDE 
 
 # 헤더의 기본 수준 정의. 미지정 시 
 markdown_extensions:
   - admonition 
   - toc:
       baselevel: 4
+extra_css:
+  - custom.css 
 nav:
   - index: 'index.md'
   - about: 'about.md' 
